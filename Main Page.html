@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>MainPage</title>
+</head>
+<body onload="window_onLoad()">
+    <table style="border: 10px solid black;">
+        <tr>
+            <td><input id="txtNumOne" type="text" placeholder="Enter A Number" /><br /><br /></td>
+        </tr>
+        <tr>       
+            <td><input id="txtNumTwo" type="text" placeholder="Enter A Second Number" /><br /><br /></td>
+        </tr>
+        <tr>
+            <td><input id="BtnSubmit1" type="button" value="Submit" OnClick="BtnSubmit1_OnClick()" /><br /><br /></td>      
+            <td><input id="BtnRem" type="button" value="Remainder" OnClick="BtnRem_OnClick()" OnMouseOver="BtnRem_OnMouseOver()" OnMouseOut="BtnRem_OnMouseOut()" /><br /><br /></td>
+        </tr>
+        <tr>          
+            <td><p id="parInfo"></p></td>
+        </tr>
+    </table>
+    <h2 id="Title" onmouseover="Title_onmouseover()" onmouseout="Title_onmouseout()">Power And Remainder Calculator</h2>
+    <script src="JavaCode.js"></script>
+</body>
+</html>
+
+
+
